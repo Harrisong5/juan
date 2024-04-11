@@ -109,6 +109,33 @@ main {
     padding-left: 10px;
 }
 
+/* Reasons section */
+#reasons {
+    padding: 20px auto 20px auto;
+    width: 90%;
+    
+    
+}
+#reasons > h2 {
+    font-size: 280%;
+    text-align: center;
+}
+
+#benefits > hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+#benefits > div {
+    margin: 20px;
+
+}
+#benefits > div > p {
+    padding: 20px 20px;
+}
+
+
+    
+}
 #cover-text > h2, #cover-text > h3 {
     color: white;
 }
