@@ -189,9 +189,19 @@ main {
 
 /* Signup form */
 #signup {
+    background-image: url(/assets/images/signup-image.webp);
     padding: 20px auto 20px auto;
     width: 90%;
     margin: 20px auto;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+#signup-form {
+    margin: 30px 30px 30px 30px;
+    
+}
+.join-button {
+    border-radius: 2px;
 }
 /* Footer */
 #social-networks {
