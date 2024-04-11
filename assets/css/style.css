@@ -177,6 +177,15 @@ main {
 #times h3 {
     color: #fafafa;
 }
+
+/* Gallery */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+#photos {
+    line-height: 0;
+}
 /* Footer */
 #social-networks {
     text-align: center;
