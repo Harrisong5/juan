@@ -241,3 +241,28 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 }
+
+/* wide screens */
+@media screen and (min-width:1200px) {
+    /* Reasons */
+    #benefits {
+        display: flex;
+        flex-direction: rows;
+    }
+    #benefits > div {
+        flex:1;
+    }
+    #benefits-img {
+        order: 0;
+    }
+    #benefits-ment {
+        order: 1;
+    }
+    #benefits-ment > div {
+        align-self: flex-start;
+    }
+    #benefits-phys > div {
+        align-self: flex-end;
+    }
+    
+}
