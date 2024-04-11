@@ -85,7 +85,6 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -133,7 +132,7 @@ main {
     padding: 20px;
 }
 #circle-cover-bg {
-    background: url('../images/reasons-image.webp') no-repeat top center / cover;
+    background: url('../images/reasons-image.webp') no-repeat center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -159,6 +158,21 @@ main {
 }
 #times {
     margin-top: 20px;
+    background-image: url(../images/dublin-city.webp);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#times div  {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.7);
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+}
+#times h3 {
+    color: #fafafa;
 }
 /* Footer */
 #social-networks {
@@ -243,7 +257,7 @@ main {
     
     /* Meetups section */
     #meetups {
-    padding: 20px 60px 20px 60px;
+    padding: 20px 20px 20px 20px;
     text-align: center;
     }
     #times {
