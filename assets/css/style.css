@@ -23,6 +23,9 @@ h1, h2, h3 {
     letter-spacing: 2px;
     color: #252525;
 }
+.hiddenh {
+    display: none;
+}
 
 /* Header */
 header {
