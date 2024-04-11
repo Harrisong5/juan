@@ -152,6 +152,14 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: white;
 }
+
+/* Meetups section */
+#meetups {
+    padding: 20px 40px 20px 40px;
+}
+#times {
+    margin-top: 20px;
+}
 /* Footer */
 #social-networks {
     text-align: center;
@@ -231,6 +239,15 @@ main {
         text-align: end;
         align-self: flex-end;
         padding-right: 40px;
+    }
+    
+    /* Meetups section */
+    #meetups {
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    }
+    #times {
+    margin-top: 20px;
     }
 
 }
