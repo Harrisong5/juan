@@ -113,11 +113,12 @@ main {
 #reasons {
     padding: 20px auto 20px auto;
     width: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 #reasons > h2 {
     font-size: 280%;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #benefits > hr {
@@ -218,7 +219,7 @@ main {
         width: 90%;
         margin: 0 auto; /* Center the section horizontally */
     }
-    #benefits {
+    #benefits > div {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -229,6 +230,7 @@ main {
     #benefits-ment > div {
         text-align: end;
         align-self: flex-end;
+        padding-right: 40px;
     }
 
 }
