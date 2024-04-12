@@ -188,53 +188,60 @@ main {
 }
 
 /* Signup form */
-#main-signup {
-    display: flex;
-    flex: column;
-}
 #signup {
-    background-image: url(/assets/images/signup-image.webp);
+    background-image: url("../images/signup-image.webp");
     background-size: cover;
-    display: flex;
-    padding: 20px auto 20px auto;
-    width: 90%;
-    margin: 20px auto;
-    flex-basis: 200px;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
     flex-grow: 1;
-    color:#fafafa;
-    text-align: center;
-    
 }
-#signup h2 {
-    color: #fafafa;
-}
+
+
 #signup-form {
-    margin: 30px 30px 30px 30px;
+    color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px 30px 30px 30px:
-    
+    padding: 30px;
 }
-#signupform > div {
+
+
+#signup-form>h2 {
+    color: #fafafa;
     margin-bottom: 20px;
 }
-.join-button {
-    border-radius: 2px;
-    background-color: #454b1b;
-    color:#fafafa;
-    font-size: 100%;
-    padding: 15px 32px 15px 32px;
-}
+
 
 .text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-    background-color: transparent;
+    padding: 0 5px;
 }
+
 
 .radio-buttons {
-    flex: space-between;
-
+    display: flex;
+    justify-content: space-between;
 }
+
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+    text-align: center;
+}
+
+#join {
+    text-align: center;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
