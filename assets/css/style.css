@@ -188,20 +188,52 @@ main {
 }
 
 /* Signup form */
+#main-signup {
+    display: flex;
+    flex: column;
+}
 #signup {
     background-image: url(/assets/images/signup-image.webp);
+    background-size: cover;
+    display: flex;
     padding: 20px auto 20px auto;
     width: 90%;
     margin: 20px auto;
     flex-basis: 200px;
     flex-grow: 1;
+    color:#fafafa;
+    text-align: center;
+    
+}
+#signup h2 {
+    color: #fafafa;
 }
 #signup-form {
     margin: 30px 30px 30px 30px;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px 30px 30px 30px:
     
+}
+#signupform > div {
+    margin-bottom: 20px;
 }
 .join-button {
     border-radius: 2px;
+    background-color: #454b1b;
+    color:#fafafa;
+    font-size: 100%;
+    padding: 15px 32px 15px 32px;
+}
+
+.text-input {
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+.radio-buttons {
+    flex: space-between;
+
 }
 /* Footer */
 #social-networks {
